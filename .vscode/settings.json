@@ -1,0 +1,6 @@
+{
+    "ionic.buildForProduction": true,
+    "cordova.runArguments": [
+
+    ]
+}

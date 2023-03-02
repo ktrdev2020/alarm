@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>kitisak</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngFor="let data of item$ | async">
+    <ion-item>
+      {{data.title}}
+    </ion-item>
+  </ion-list>
+</ion-content>

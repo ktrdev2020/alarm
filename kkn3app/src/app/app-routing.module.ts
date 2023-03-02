@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'kitisak',
+    loadChildren: () => import('./kitisak/kitisak.module').then( m => m.KitisakPageModule)
+  },
 ];
 
 @NgModule({
